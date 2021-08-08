@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*, *::after, *::before {
+    margin: 0;
+    
+    overflow-x: hidden;
+
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    
+    color: white;
+}
+
+a, a:hover, a:focus, a:visited {
+    color: white;
+
+    text-decoration: none;
+}
+
+.hero-inner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://www.wallpapertip.com/wmimgs/221-2213572_wallpaper-night-city-street-lighting-traffic-sydney.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.img-div {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+
+    margin-top: 35px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 50%;
+}
+
+.name {
+    text-align: center;
+
+    font-size: 28px;
+}
+
+.description {
+    margin-top: 15px;
+
+    text-align: center;
+
+    font-size: 18px;
+}
+
+h5 {
+    margin-bottom: 15px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+
+    width: 600px;
+
+    padding: 15px;
+
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: rgba( 255, 255, 255, 0.10 );
+    backdrop-filter: blur( 15.0px );
+    -webkit-backdrop-filter: blur( 15.0px );
+    border-radius: 50px;
+
+    transition: all .2s ease-in-out;
+}
+
+.link:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 651px) {
+    .link {
+        width: 90%;
+    }
+}
+
+.link img {
+    height: 35px;
+    transform: scale(1.25, 1.25);
+}
+
+.link-info {
+    margin-left: auto;
+    margin-right: auto;
+
+    transform: translateX(-30%);
+}
