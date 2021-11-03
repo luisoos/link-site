@@ -12,4 +12,4 @@ Design: Glassmorphism
 - Add Icons for **your** socials
 - Add URLs to **your** socials
 
-##### Free to use!
+##### NOT FREE!
